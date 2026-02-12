@@ -19,8 +19,8 @@ def generate_fake_data(number_users, number_tasks) -> tuple():
     return fake_users, fake_tasks
 
 def prepare_data(users, tasks):
-    for_users = []
-    for user in users:
-        for_users.append(user)
 
-    
+    for_tasks = []
+
+    for task in tasks:
+        for_tasks.append((list(task), randint(1, 3 + 1), randint(1, )))
